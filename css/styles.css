@@ -70,7 +70,6 @@ button {
         max-width: 768px;
     }
 
-    .team .container,
     .footer-container {
         max-width: 582px;
     }
@@ -334,7 +333,6 @@ button {
 
 .social-links {
     display: flex;
-    justify-content: center;
 }
 
 .menu-social-links-list {
@@ -491,7 +489,8 @@ button {
 }
 
 .features {
-    padding: 96px 0;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .features-list {
@@ -540,7 +539,8 @@ button {
 
 @media screen and (min-width: 1158px) {
     .features {
-        padding: 120px 0;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 
     .features-list {
@@ -611,7 +611,6 @@ button {
 
 .desc {
     text-align: center;
-    width: 264px;
     padding: 32px 0px;
     box-sizing: border-box;
 }
@@ -686,7 +685,8 @@ button {
 }
 
 .portfolio {
-    padding: 96px 0;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .portfolio-title {
@@ -747,15 +747,10 @@ button {
 }
 
 .card-desc {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    width: 288px;
-    height: 120px;
 
 }
 
@@ -782,10 +777,7 @@ button {
         flex-basis: calc((100% - 24px) / 2);
     }
 
-    .card-desc {
-        width: 356px;
-        height: 120px;
-    }
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -802,10 +794,6 @@ button {
         flex-basis: calc((100% - 48px) / 3);
     }
 
-    .card-desc {
-        width: 360px;
-        height: 120px;
-    }
 }
 
 .footer {
@@ -986,6 +974,10 @@ button {
     .social-item-wrap {
         width: 208px;
         align-items: flex-start;
+    }
+
+    .footer-form-text {
+        text-align: left;
     }
 
     .footer-form {
